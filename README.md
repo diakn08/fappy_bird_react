@@ -1,4 +1,4 @@
-# Flappy Bird Rea
+# Flappy Bird Game
 
 Клонированная и улучшенная версия популярной игры **Flappy Bird**, реализованная на **React** и **Vite**.  
 
