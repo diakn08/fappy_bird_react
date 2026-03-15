@@ -1,16 +1,36 @@
-# React + Vite
+# Flappy Bird Rea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Клонированная и улучшенная версия популярной игры **Flappy Bird**, реализованная на **React** и **Vite**.  
 
-Currently, two official plugins are available:
+Игрок управляет птицей 🐤, избегает труб и набирает очки. Игра адаптирована под различные уровни сложности и устройства.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎮 Особенности
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Адаптивный дизайн под разные экраны.
+- Три уровня сложности: **Легкий**, **Средний**, **Сложный**.
+- Счёт и лучший результат сохраняются в `localStorage`.
+- Простое управление:  
+  - `Space` / ⬆️ — Прыжок  
+  - ⬇️ — Быстрое падение  
+  - Клик / Touch — Прыжок
+- Градиентный фон и анимированные трубы.
+- Плавная анимация птицы.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Технологии
+
+- [React](https://reactjs.org/) — UI библиотека.
+- [Vite](https://vitejs.dev/) — быстрый сборщик проекта.
+- CSS + inline стили для анимаций и эффектов.
+
+---
+
+## 🚀 Установка и запуск
+
+1. Клонируй репозиторий:
+
+```bash
+git clone https://github.com/your-username/flappybird-react.git
