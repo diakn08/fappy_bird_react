@@ -1,0 +1,46 @@
+/* Сброс всех стилей по умолчанию */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Стили для body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: #0a1a24;
+}
+
+/* Корневой элемент React */
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Убираем скроллбары */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Базовые стили для кнопок */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Стили для canvas */
+canvas {
+  display: block;
+  touch-action: none;
+}
